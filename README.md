@@ -54,7 +54,7 @@
 ```bash
 # Clona el repositorio
 git clone https://github.com/NahirCarrera/VentasPro.git
-cd ventaspro
+cd ventasPro
 
 # Instala dependencias
 composer install
@@ -70,3 +70,6 @@ php artisan migrate --seed
 
 # Inicia el servidor
 php artisan serve
+
+#Nota
+El usuario inicial es admin@gmail.com con contraseña admin1234
