@@ -53,8 +53,8 @@
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu_usuario/bar-espe-ventaspro.git
-cd bar-espe-ventaspro
+git clone https://github.com/NahirCarrera/VentasPro.git
+cd ventaspro
 
 # Instala dependencias
 composer install
