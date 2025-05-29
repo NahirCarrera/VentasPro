@@ -24,11 +24,11 @@
                         <thead class="border-b-2 border-[#708238] bg-[#f0f4ec]">
                             <tr>
                                 <th class="px-4 py-2">#</th>
-                                <th class="px-4 py-2">Name</th>
-                                <th class="px-4 py-2">Price</th>
+                                <th class="px-4 py-2">Nombre</th>
+                                <th class="px-4 py-2">Precio</th>
                                 <th class="px-4 py-2">Stock</th>
-                                <th class="px-4 py-2">Category</th>
-                                <th class="px-4 py-2">Created At</th>
+                                <th class="px-4 py-2">Categoría</th>
+                                <th class="px-4 py-2">Creado el</th>
                             </tr>
                         </thead>
                         <tbody>

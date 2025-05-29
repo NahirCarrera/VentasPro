@@ -11,14 +11,14 @@
     <!-- Scripts & Styles -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-black text-white font-sans antialiased min-h-screen flex flex-col">
-    <div class="min-h-screen">
+<body class="bg-white text-[#1a1a1a] font-sans antialiased min-h-screen flex flex-col">
+    <div class="min-h-screen flex flex-col">
         <!-- Navigation -->
         @include('layouts.navigation')
 
         <!-- Page Heading -->
         @if (isset($header))
-            <header class="bg-[#708238] shadow">
+            <header class="bg-[#708238] shadow-sm">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-white font-semibold text-xl">
                     {{ $header }}
                 </div>
@@ -26,12 +26,12 @@
         @endif
 
         <!-- Page Content -->
-        <main class="flex-grow bg-black">
+        <main class="flex-grow bg-white">
             {{ $slot }}
         </main>
     </div>
 
-    <footer class="bg-[#708238] text-black text-center py-3 text-sm">
+    <footer class="bg-[#708238] text-white text-center py-3 text-sm shadow-inner">
         © {{ date('Y') }} BarEspe VentasPro. Todos los derechos reservados.
     </footer>
 </body>

@@ -22,14 +22,14 @@
                 <form action="{{ route('categories.store') }}" method="POST">
                     @csrf
                     <div class="mb-4">
-                        <label for="name" class="block text-sm font-medium text-black">Name</label>
+                        <label for="name" class="block text-sm font-medium text-black">Nombre de la Categoría</label>
                         <input type="text" name="name" id="name" required
                                class="mt-1 block w-full p-2 border border-gray-300 rounded-lg text-black focus:ring-[#708238] focus:border-[#708238]">
                     </div>
                     <div class="mt-6">
                         <button type="submit"
                                 class="w-full bg-[#708238] hover:bg-[#5e6f2f] text-white font-semibold py-2 px-4 rounded-lg transition">
-                            Create Category
+                            Crear Categoría
                         </button>
                     </div>
                 </form>

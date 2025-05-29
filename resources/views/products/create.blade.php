@@ -24,13 +24,13 @@
                 <form action="{{ route('products.store') }}" method="POST">
                     @csrf
                     <div class="mb-4">
-                        <label for="name" class="block text-sm font-medium text-black">Name</label>
+                        <label for="name" class="block text-sm font-medium text-black">Nombre</label>
                         <input type="text" name="name" id="name" required
                                class="mt-1 block w-full p-2 border border-gray-300 rounded-lg text-black focus:ring-[#708238] focus:border-[#708238]">
                     </div>
 
                     <div class="mb-4">
-                        <label for="price" class="block text-sm font-medium text-black">Price</label>
+                        <label for="price" class="block text-sm font-medium text-black">Precio</label>
                         <input type="number" name="price" id="price" step="0.01" required
                                class="mt-1 block w-full p-2 border border-gray-300 rounded-lg text-black focus:ring-[#708238] focus:border-[#708238]">
                     </div>
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="mb-4">
-                        <label for="category_id" class="block text-sm font-medium text-black">Category</label>
+                        <label for="category_id" class="block text-sm font-medium text-black">Categoría</label>
                         <select name="category_id" id="category_id" required
                                 class="mt-1 block w-full p-2 border border-gray-300 rounded-lg text-black focus:ring-[#708238] focus:border-[#708238]">
                             @foreach($categories as $category)
@@ -54,7 +54,7 @@
                     <div class="mt-6">
                         <button type="submit"
                                 class="w-full bg-[#708238] hover:bg-[#5e6f2f] text-white font-semibold py-2 px-4 rounded-lg transition">
-                            Create Product
+                            Crear Producto
                         </button>
                     </div>
                 </form>
